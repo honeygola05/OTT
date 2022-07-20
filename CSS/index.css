@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    font-family: 'Arima', cursive !important;
+    background-color: black !important ;
+    color: white !important;
+}
+
+.head .pic img{
+    border-radius: 10px;
+    width: 170px;
+}
+.head .menu {
+    margin: auto;
+    position: absolute;
+    left:100%;
+    transition: 0.5s ease-out;
+    display: none;
+}
+.show1{
+    left: 60%!important;
+    display: block !important;
+}
+.head .bot img{
+    z-index: 99999999999999999999999999999999;
+}
+
+.head .menu .nav li a{
+    color: white;
+}
+.head .menu .nav .dropdown-menu{
+    transform: inherit !important;
+    top: inherit !important;
+}
+.head .menu .nav .dropdown-menu a{
+    color: black;
+}
+.head .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+.head .menu .nav{
+    flex-wrap: nowrap;
+}
+
+
+.head .bot img{
+    width: 30px;
+    color: white;
+}
+
+.top img{
+    width: 100%;
+}
+.about .right img{
+    float: right;
+    width: 30%;
+    height: 40%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.about .left img{
+    float: left;
+    width: 30%;
+    height: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 15px;
+    color: white;
+}
+
+.cd .card-body h5,p{
+    color: black;
+}
+.slide img{
+    width: 100%;
+}
+.slide .slider img{
+    width: 100%;
+}
+
+@media only screen and (max-width:935px)
+{
+    .show1{
+        left: 50% !important;
+    }
+}
+@media only screen and (max-width:800px)
+{
+    .top .btn{
+        font-size: 13px;
+    }
+    .about h3{
+        font-size: 25px;
+    }
+    .about h4{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 13px;
+    }
+    .about .btn{
+        font-size: 15px;
+    }
+    .cd h5{
+        font-size: 17px;
+    }
+    .cd p{
+        font-size: 13px;
+    }
+    .cd .btn{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:760px)
+{
+    .show1{
+        left: 40% !important;
+    }
+}
+@media only screen and (max-width:630px)
+{
+    .show1{
+        left: 35% !important;
+    }
+    .head .pic img{
+        width:140px
+    }
+}
+@media only screen and (max-width:600px)
+{
+    .head .pic img{
+        width:120px
+    }
+    .show1{
+        left: 33% !important;
+    }
+    .head .menu .nav li{
+        font-size: 13px ;
+    }
+    .top .btn{
+        font-size: 10px;
+        justify-content: right;
+    }
+    .about h3{
+        font-size: 20px;
+    }
+    .about h4{
+        font-size: 18px;
+    }
+    .about p{
+        font-size: 11px;
+    }
+    .about .btn{
+        font-size: 13px;
+    }
+    .cd h5{
+        font-size: 15px;
+    }
+    .cd p{
+        font-size: 11px;
+    }
+    .cd .btn{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+    .head .pic{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .head .pic img{
+        width:100px
+    }
+    .show1{
+        left: 33% !important;
+    }
+    .head .menu .nav li{
+        font-size: 10px ;
+    }
+}
+@media only screen and (max-width:400px)
+{
+    .head .pic{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .head .pic img{
+        width:80px
+    }
+    .show1{
+        left: 28% !important;
+    }
+    .head .menu .nav li a{
+        padding: 2px !important ;
+    }
+    .head .menu .nav li{
+        font-size: 10px ;
+    }
+    .top .btn{
+        font-size: 8px;
+    }
+    
+    .about .left img{
+        margin: auto;
+        width: 100%;
+        padding: 25px;
+    }
+    .about .right img{
+        margin: auto;
+        width: 100%;
+        padding: 25px;
+    }
+    .about .right {
+        text-align: left !important;
+    }
+    .about h3{
+        font-size: 18px;
+    }
+    .about h4{
+        font-size: 15px;
+    }
+    .about p{
+        font-size: 9px;
+    }
+    .about .btn{
+        font-size: 11px;
+    }   
+}
+
+/* .pll{
+    padding-left: 60%;
+}
+.pllf{
+    padding-left: 100%;
+} */
